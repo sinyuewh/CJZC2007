@@ -1,0 +1,112 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1299F23F-0165-4E82-8076-D341A447F44A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JSJ.CJZC.Business</RootNamespace>
+    <AssemblyName>BusinessRules</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeTextBox, Version=1.6.3.26073, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CJZC2007Web\Bin\FreeTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="SysFrame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CJZC2007Web\Bin\SysFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebFrame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caiwu\CW_InStockBU.cs" />
+    <Compile Include="Caiwu\CW_OutStockBU.cs" />
+    <Compile Include="Caiwu\CW_Pay1BU.cs" />
+    <Compile Include="Caiwu\CW_PayBU.cs" />
+    <Compile Include="Caiwu\CW_ShouKuan1BU.cs" />
+    <Compile Include="Caiwu\CW_ShouKuanBU.cs" />
+    <Compile Include="Caiwu\CW_StockBillBU.cs" />
+    <Compile Include="Comm.cs" />
+    <Compile Include="DangAn\DangAnBU.cs" />
+    <Compile Include="DangAn\DA_AnJuanBU.cs" />
+    <Compile Include="DangAn\DA_CopyBU.cs" />
+    <Compile Include="DangAn\DA_FilesBU.cs" />
+    <Compile Include="DangAn\DA_JieYuanBU.cs" />
+    <Compile Include="Info\ZX_Email1Bu.cs" />
+    <Compile Include="Info\ZX_EmailBu.cs" />
+    <Compile Include="Info\ZX_InfoBu.cs" />
+    <Compile Include="Info\ZX_InfoReadBU.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XTGL\U_DepartBU.cs" />
+    <Compile Include="XTGL\U_UserNameBU.cs" />
+    <Compile Include="XTGL\U_RolesBU.cs" />
+    <Compile Include="XTGL\U_ItemBU.cs" />
+    <Compile Include="XTGL\XT_UserLogBU.cs" />
+    <Compile Include="ZcGL\U_FASPBU.cs" />
+    <Compile Include="ZcGL\U_ZCBAOBU.cs" />
+    <Compile Include="ZcGL\U_ZCBSPBU.cs" />
+    <Compile Include="ZcGL\U_ZCFilesBU.cs" />
+    <Compile Include="ZcGL\U_ZcFPLog.cs" />
+    <Compile Include="ZcGL\U_ZCSPBU.cs" />
+    <Compile Include="ZcGL\U_ZcTimeBU.cs" />
+    <Compile Include="ZcGL\U_ZCBU.cs" />
+    <Compile Include="ZcGL\U_ZCTCBU.cs" />
+    <Compile Include="ZcGL\ZC2BU.cs" />
+    <Compile Include="ZcGL\ZcBu.cs" />
+    <Compile Include="ZcGL\ZCStatusBU.cs" />
+    <Compile Include="ZcspBU.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FrameLib\WebFrame.dll" />
+    <Content Include="代码模板.txt" />
+    <Content Include="目录说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JueCeZhiChi\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+D:\WebProjects\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+D:\WebProjects\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+D:\WebProjects\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+D:\WebProjects\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+D:\WebProjects\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+D:\WebProjects\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+D:\WebProjects\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+D:\WebProjects\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb

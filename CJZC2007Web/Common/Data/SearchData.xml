@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchData>
+  <SQL id="001" value="select distinct u_username.num as znum,zeren,u_username.depart,zcid,&#xD;&#xA;    kind,u_depart.num as dnum&#xD;&#xA;    from U_ZCTC inner join&#xD;&#xA;    U_UserName on U_zctc.zeren=u_username.sname&#xD;&#xA;    inner join u_depart on u_username.depart=u_depart.depart&#xD;&#xA;    where time0&gt;=@time0 and time0&lt;=@time1 orderbydnum,znum,kind">
+  </SQL>
+</SearchData>

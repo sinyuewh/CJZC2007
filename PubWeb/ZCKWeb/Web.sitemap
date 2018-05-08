@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="CJZCMIS"  description="CJZCMIS">
+
+    <siteMapNode  title="资产项目处置"  description="资产项目处置">
+      <siteMapNode url="~/ZcMng3/AddSbb.aspx" title="新增资产项目处置方案申报表"  description="新增资产项目处置方案申报表" />
+      <siteMapNode url="~/ZcMng3/SelectZCBao.aspx" title="选择资产包数据"  description="选择立项的资产包数据" />
+        <siteMapNode url="~/ZcMng3/SelectZC.aspx" title="选择立项的资产数据"  description="选择立项的资产数据" />
+      <siteMapNode url="~/ZcMng3/fangan1.aspx" title="我的项目审批表"  description="我的项目审批表" />
+      <siteMapNode url="~/ZcMng3/fangan2.aspx" title="部门的项目审批表"  description="部门的项目审批表" />
+      <siteMapNode url="~/ZcMng3/fangan3.aspx" title="公司的项目审批表 "  description="公司的项目审批表 " />
+      <siteMapNode url="~/ZcMng3/fangan4.aspx" title="需要我审批的项目"  description="需要我审批的项目" />
+      <siteMapNode url="~/ZcMng3/fangan5.aspx" title="我审批过的项目"  description="我审批过的项目" />
+      <siteMapNode url="~/ZcMng3/fangan6.aspx" title="领导秘书办公专栏"  description="领导秘书办公专栏" />
+      
+      <siteMapNode url="~/ZcMng3/EditSbb.aspx" title="项目处置方案申报表详细资料"  description="项目处置方案申报表详细资料" />
+      <siteMapNode url="~/ZcMng3/PiYue.aspx" title="批阅项目处置方案申报表"  description="批阅项目处置方案申报表" />
+      <siteMapNode url="~/ZcMng3/ZcZx.aspx" title="项目执行情况"  description="项目执行情况" />
+      <siteMapNode url="~/ZcMng3/SearchFangAn.aspx" title="查询方案审批表"  description="查询方案审批表" />
+      <siteMapNode url="~/ZcMng3/TongJiFangAn.aspx" title="方案审批表统计"  description="方案审批表统计" />
+      <siteMapNode url="~/ZcMng3/ChangeZXStatus.aspx" title="更改方案的当前状态"  description="更改方案的当前状态" />
+    </siteMapNode>
+    
+    <!--模块1：资产管理-->
+    <siteMapNode  title="资产现状"  description="资产现状">
+      <siteMapNode url="~/ZcMng1/ZongHeSearch.aspx" title="资产综合查询"  description="资产综合查询">
+        <siteMapNode url="~/ZcMng1/ZongHeSearchResult.aspx" title="资产综合查询结果"  description="资产综合查询结果"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/ZcMng1/ZcBaoZongHeSearch.aspx" title="资产包综合查询"  description="资产包综合查询" />
+      <siteMapNode url="~/ZcMng1/FixLawGwList.aspx" title="分配法律顾问权限"  description="分配法律顾问权限" />
+      <siteMapNode url="~/ZcMng1/FixLawGwEdit.aspx" title="编辑法律顾问权限"  description="编辑法律顾问权限" />
+      
+      <siteMapNode url="~/ZcMng1/LawGwList.aspx" title="法律顾问浏览资产"  description="法律顾问浏览资产" />
+      <siteMapNode url="~/ZcMng1/LawGwBaoList.aspx" title="法律顾问浏览资产包"  description="法律顾问浏览资产包" />
+     
+      
+      <siteMapNode url="~/ZcMng1/ZcLogSearch.aspx" title="资产日志综合查询"  description="资产日志综合查询" />
+
+      <siteMapNode url="~/ZcMng1/AddZC.aspx" title="新增资产数据"  description="新增资产数据"/>
+      <siteMapNode url="~/ZcMng2/AddHKPlan.aspx" title="新增还款计划"  description="新增还款计划"/>
+      <siteMapNode url="~/ZcMng1/HuiKuanPlanSearch.aspx" title="回款计划查询"  description="回款计划查询"/>
+      <siteMapNode url="~/ZcMng1/MyZcBao.aspx" title="我负责的资产包"  description="我负责的资产包"/>
+      <siteMapNode url="~/ZcMng1/MyZcBaoList1.aspx" title="我协办的资产包"  description="我协办的资产包"/>
+      
+        <siteMapNode url="~/ZcMng1/MyFixZcUserKind.aspx" title="调整资产自定义类别"  description="调整资产自定义类别"/>
+        
+      <siteMapNode url="~/ZcMng1/ZcBaoGL.aspx" title="资产包管理"  description="资产包管理"/>
+      <siteMapNode url="~/ZcMng1/FixZcBao.aspx" title="资产打包"  description="资产打包"/>
+      <siteMapNode url="~/ZcMng1/ZiChangFengPei.aspx" title="将资产落实到责任人"  description="将资产落实到责任人"/>
+
+      <siteMapNode url="~/ZcMng1/FixZeren.aspx" title="调整资产责任人"  description="调整资产责任人"/>
+      <siteMapNode url="~/ZcMng1/FixZcUserKind.aspx" title="调整资产用户自定义分类"  description="调整资产用户自定义分类"/>
+      <siteMapNode url="~/ZcMng1/SelZeRen.aspx" title="选择责任人"  description="选择责任人"/>
+
+
+      <siteMapNode url="~/ZcMng1/MyZc.aspx" title="我负责的资产"  description="我负责的资产"/>
+      <siteMapNode url="~/ZcMng1/MyZc1.aspx" title="我协办的资产"  description="我协办的资产"/>
+      
+      <siteMapNode url="~/ZcMng1/MyDepartZc.aspx" title="我部门负责的资产"  description="我部门负责的资产"/>
+      <siteMapNode url="~/ZcMng1/ShenPiZcIng.aspx" title="需要我审批的资产"  description="需要我审批的资产"/>
+      <siteMapNode url="~/ZcMng1/ShenPiZcBIng.aspx" title="需要我审批的资产包"  description="需要我审批的资产包"/>
+      <siteMapNode url="~/ZcMng1/ShenPiZcDone.aspx" title="我审批过的资产"  description="我审批过的资产"/>
+      <siteMapNode url="~/ZcMng1/ShenPiZcBDone.aspx" title="我审批过的资产包"  description="我审批过的资产包"/>
+      <siteMapNode url="~/ZcMng1/MyZcTime0.aspx" title="我的资产时效警告"  description="我的资产时效警告"/>
+      
+      <siteMapNode url="~/ZcMng1/TJ_ShiXiao.aspx" title="我的资产时效统计"  description="我的资产时效统计"/>
+      <siteMapNode url="~/ZcMng1/TJ_SX_List.aspx" title="我的时效资料列表"  description="我的资产时效统计"/>
+
+      <siteMapNode url="~/ZcMng1/MyDepartZcTime0.aspx" title="我部门的资产时效警告"  description="我部门的资产时效警告"/>
+      <siteMapNode url="~/ZcMng1/ZCDirectoryInfo.aspx" title="下载资产系列文件"  description="下载资产系列文件"/>
+
+      <siteMapNode url="~/ZcMng1/EditZcBao.aspx" title="资产包修改"  description="资产包修改"/>
+      <siteMapNode url="~/ZcMng1/AddZcBao.aspx" title="新增资产包"  description="新增资产包"/>
+      <siteMapNode url="~/ZcMng1/SelZcBao1.aspx" title="资产打包"  description="资产打包"/>
+
+      <siteMapNode url="~/ZcMng2/ZcDetail1.aspx" title="基本资料"  description="基本资料"/>
+      <siteMapNode url="~/ZcMng2/ZcDetail2.aspx" title="尽职调查"  description="尽职调查"/>
+      <siteMapNode url="~/ZcMng2/ZcDetail3.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/ZcDetail7.aspx" title="抵债物资"  description="抵债物资"/>
+      
+      <siteMapNode url="~/ZcMng2/SelPerson.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue11.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue12.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue13.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue14.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/PiYue15.aspx" title="方案审批"  description="方案审批"/>
+      <siteMapNode url="~/ZcMng2/AddZcCzfs.aspx" title="方案审批"  description="方案审批"/>
+
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail1.aspx" title="资产包基本资料"  description="资产包基本资料"/>
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail2.aspx" title="资产包尽职调查"  description="资产包尽职调查"/>
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail3.aspx" title="资产包方案审批"  description="资产包方案审批"/>
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail4.aspx" title="资产包方案执行"  description="资产包方案执行"/>
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail5.aspx" title="资产包财务数据"  description="资产包财务数据"/>
+      <siteMapNode url="~/ZcMng2/ZcBaoDetail6.aspx" title="资产包所有附件"  description="资产包所有附件"/>
+
+      <siteMapNode url="~/ZcMng2/ZcDetail4.aspx" title="方案执行"  description="方案执行"/>
+      <siteMapNode url="~/ZcMng2/ZcDetail5.aspx" title="财务数据"  description="财务数据"/>
+      <siteMapNode url="~/ZcMng2/ZcDetail6.aspx" title="时效管理"  description="时效管理" />
+      <siteMapNode url="~/ZcMng2/ZcDetail9.aspx" title="资产担保情况"  description="资产担保情况" />
+      <siteMapNode url="~/ZcMng2/EditTime.aspx" title="编辑资产时效"  description="编辑资产时效"/>
+      <siteMapNode url="~/ZcMng2/AddTime.aspx" title="增加资产时效"  description="增加资产时效"/>
+
+      <siteMapNode url="~/ZcMng1/ZcBaoZcDetail.aspx" title="资产包资产情况"  description="资产包资产情况"/>
+      
+    </siteMapNode>
+
+    <!--系统管理-->
+    <siteMapNode  title="系统管理"  description="系统管理">
+      <siteMapNode url="~/XtGL/XtGLIndex.aspx" title="部门管理"  description="部门管理">
+        <siteMapNode url="~/XtGL/AddDepart.aspx" title="增加部门"  description="增加部门"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/XtGL/UserMng.aspx" title="用户管理"  description="用户管理">
+        <siteMapNode url="~/XtGL/AddUser.aspx" title="增加新用户"  description="增加新用户"/>
+        <siteMapNode url="~/XtGL/EditUser.aspx" title="修改用户资料"  description="修改用户资料"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/XtGL/RolesList.aspx" title="角色管理"  description="角色管理">
+        <siteMapNode url="~/XtGL/EditRole.aspx" title="修改角色"  description="修改角色"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/XtGL/RateList.aspx" title="美元汇率"  description="美元汇率">
+        <siteMapNode url="~/XtGL/AddRate.aspx" title="增加美元汇率"  description="增加美元汇率"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/XtGL/ItemList.aspx" title="系统配置"  description="系统配置">
+        <siteMapNode url="~/XtGL/EditItem.aspx" title="修改系统配置"  description="修改系统配置"/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <!--档案管理-->
+    <siteMapNode title="档案管理" description="档案管理">
+      <siteMapNode url="~/DangAn/DangAnIndex.aspx" title="档案管理"  description="档案管理"/>
+      <siteMapNode url="~/DangAn/AnJuanDetail.aspx" title="案卷明细页面"  description="案卷明细页面"/>
+      <siteMapNode url="~/DangAn/AnJuanMove.aspx" title="案卷文件移交"  description="案卷文件移交"/>
+      <siteMapNode url="~/DangAn/DangAnSearch.aspx" title="案卷检索"  description="案卷检索"/>
+      <siteMapNode url="~/DangAn/AnJuanWeiHu.aspx" title="案卷维护"  description="案卷维护"/>
+      <siteMapNode url="~/DangAn/AnJuanDetailEdit.aspx" title="案卷信息维护页面"  description="案卷信息维护页面"/>
+      <siteMapNode url="~/DangAn/AddAnJuanInfo.aspx" title="增加新案卷"  description="增加新案卷">
+      </siteMapNode>
+      <siteMapNode url="~/DangAn/EditFile.aspx" title="修改案卷文件"  description="修改案卷文件"/>
+
+      <siteMapNode url="~/DangAn/AddFile.aspx" title="增加案卷文件"  description="增加案卷文件"/>
+      <siteMapNode url="~/DangAn/FileJieYue.aspx" title="文件借阅单"  description="文件借阅单"/>
+      <siteMapNode url="~/DangAn/JieyueDetail.aspx" title="借阅单明细"  description="借阅单明细"/>
+      <siteMapNode url="~/DangAn/EditJieyueInfo.aspx" title="借阅单维护"  description="借阅单维护"/>
+      <siteMapNode url="~/DangAn/PayInfo.aspx" title="归还借阅文件"  description="归还借阅文件"/>
+      <siteMapNode url="~/DangAn/AddJieYue.aspx" title="新增借阅单"  description="新增借阅单"/>
+      <siteMapNode url="~/DangAn/AddJieyueFile.aspx" title="新增借阅文件"  description="新增借阅文件"/>
+      <siteMapNode url="~/DangAn/AddPrint.aspx" title="新增文件复印单"  description="新增文件复印单"/>
+      <siteMapNode url="~/DangAn/EditPrintInfo.aspx" title="复印单明细"  description="复印单明细"/>
+      <siteMapNode url="~/DangAn/Print.aspx" title="复印单维护"  description="复印单维护"/>
+      <siteMapNode url="~/DangAn/AddCopyFile.aspx" title="增加复印文件"  description="增加复印文件"/>
+      <siteMapNode url="~/DangAn/UploadDangAnFile.aspx" title ="资产档案电子稿上传" description ="资产档案电子稿上传"></siteMapNode>
+      <siteMapNode url="~/DangAn/DangAnFileWeiHu.aspx" title ="电子档案文件维护" description ="电子档案文件维护"></siteMapNode>
+      <siteMapNode url="~/DangAn/DangAnSearchResult.aspx" title ="档案查询结果" description ="档案查询结果"></siteMapNode>
+    </siteMapNode>
+
+    <!--财务中心-->
+    <siteMapNode  title="财务中心"  description="财务中心">
+      <siteMapNode url="~/CaiWu/ZcSearch.aspx" title="资产财务开票"  description="资产财务开票"/>
+      <siteMapNode url="~/CaiWu/BillSearch.aspx" title="单据浏览"  description="单据浏览"/>
+      <siteMapNode url="~/CaiWu/StockSearch.aspx" title="库存浏览"  description="库存浏览"/>
+      <siteMapNode url="~/CaiWu/ZcBaoBillSearch.aspx" title="资产包单据浏览"  description="资产包单据浏览"/>
+      <siteMapNode url="~/CaiWu/ZcBaoSearch.aspx" title="资产包财务开票"  description="资产包财务开票"/>
+
+
+      <siteMapNode url="~/CaiWu/AddShouKuan.aspx" title="新开收款单据"  description="新开收款单据"/>
+      <siteMapNode url="~/CaiWu/AddPay.aspx" title="新开支出单据"  description="新开支出单据"/>
+      <siteMapNode url="~/CaiWu/AddInStock.aspx" title="新开入库单据"  description="新开入库单据"/>
+      <siteMapNode url="~/CaiWu/AddOutStock.aspx" title="新开出库单据"  description="新开出库单据"/>
+      <siteMapNode url="~/CaiWu/AddShouKuan1.aspx" title="新开资产包收款单据"  description="新开资产包收款单据"/>
+      <siteMapNode url="~/CaiWu/AddPay1.aspx" title="新开资产包支出单据"  description="新开资产包支出单据"/>
+
+
+      <siteMapNode url="~/CaiWu/EditShouKuan.aspx" title="收款单据"  description="收款单据"/>
+      <siteMapNode url="~/CaiWu/EditPay.aspx" title="支出单据"  description="支出单据"/>
+      <siteMapNode url="~/CaiWu/EditInStock.aspx" title="入库单据"  description="入库单据"/>
+      <siteMapNode url="~/CaiWu/EditOutStock.aspx" title="出库单据"  description="出库单据"/>
+      <siteMapNode url="~/CaiWu/EditShouKuan1.aspx" title="资产包收款单据"  description="资产包收款单据"/>
+      <siteMapNode url="~/CaiWu/EditPay1.aspx" title="资产包支出单据"  description="资产包支出单据"/>
+
+      <siteMapNode url="~/CaiWu/CheckAllBill.aspx" title="选择要审核的单据"  description="选择要审核的单据"/>
+      <siteMapNode url="~/CaiWu/CheckShouKuanList.aspx" title="审核收款单据"  description="审核收款单据"/>
+      <siteMapNode url="~/CaiWu/CheckPayList.aspx" title="审核支出单据"  description="审核支出单据"/>
+      <siteMapNode url="~/CaiWu/CheckInStockList.aspx" title="审核入库单据"  description="审核入库单据"/>
+      <siteMapNode url="~/CaiWu/CheckOutStockList.aspx" title="审核出库单据"  description="审核出库单据"/>
+      <siteMapNode url="~/CaiWu/CheckShouKuanList1.aspx" title="审核资产包收款单据"  description="审核资产包收款单据"/>
+      <siteMapNode url="~/CaiWu/CheckPayList1.aspx" title="审核资产包支出单据"  description="审核资产包支出单据"/>
+    </siteMapNode>
+
+    <!--决策支持-->
+    <siteMapNode title="决策支持" description="决策支持">
+
+      <siteMapNode url="~/JueCeZhiChi/ST_ZC_List.aspx" title="资产统计列表"  description="资产统计列表"/>
+      <siteMapNode url="~/JueCeZhiChi/ST_ZcBao_List.aspx" title="资产包统计列表"  description="资产包统计列表"/>
+
+      <siteMapNode url="~/JueCeZhiChi/st1.aspx" title="公司状态统计"  description="公司状态统计"/>
+      <siteMapNode url="~/JueCeZhiChi/st2.aspx" title="部门状态统计"  description="部门状态统计"/>
+      <siteMapNode url="~/JueCeZhiChi/st3.aspx" title="人员资产统计"  description="人员资产统计"/>
+      <siteMapNode url="~/JueCeZhiChi/StatByStatus.aspx" title="高级资产统计"  description="高级资产统计"/>
+      <siteMapNode url="~/JueCeZhiChi/StatByGSZC.aspx" title="公司资产统计"  description="公司资产统计"/>
+
+
+      <siteMapNode url="~/JueCeZhiChi/TJ_JZTC.aspx" title="尽职调查统计"  description="尽职调查统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_JZTC_List.aspx" title="资产详细清单"  description="资产详细清单"/>
+
+      <siteMapNode url="~/JueCeZhiChi/TJ_HK.aspx" title="回款统计"  description="回款统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_HK_List.aspx" title="回款统计"  description="回款统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_ZhiChu.aspx" title="支出统计"  description="支出统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_ZhiChu_List.aspx" title="支出统计"  description="支出统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_FASP.aspx" title="方案审批统计"  description="方案审批统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_FAZX.aspx" title="方案执行统计"  description="方案执行统计"/>
+
+      <siteMapNode url="~/JueCeZhiChi/StatByFASP.aspx" title="方案审批统计"  description="方案审批统计"/>
+      <siteMapNode url="~/JueCeZhiChi/StatByFAZX.aspx" title="方案执行统计"  description="方案执行统计"/>
+
+      <siteMapNode url="~/JueCeZhiChi/TJ_ShiXiao.aspx" title="时效统计"  description="时效统计"/>
+      <siteMapNode url="~/JueCeZhiChi/TJ_SX_List.aspx" title="时效资产列表"  description="时效资产列表"/>
+      <siteMapNode url="~/test.aspx" title ="测试信息" description="test"></siteMapNode>
+      <siteMapNode url="~/JueCeZhiChi/StatByStatusResult.aspx" title ="资产详细清单" description ="资产详细清单"></siteMapNode>
+    </siteMapNode>
+
+
+    <!--咨讯平台-->
+    <siteMapNode title="咨询平台" description="咨询平台">
+
+      <siteMapNode url="~/Info/UserLogo.aspx" title="用户日志"  description="用户日志">
+      </siteMapNode>
+
+      <siteMapNode url="~/Info/UserLogList.aspx" title="用户日志"  description="用户日志">
+      </siteMapNode>
+      
+      <siteMapNode url="~/info/infoBrowse.aspx" title="信息浏览" description="信息浏览">
+        <siteMapNode url="~/info/InfoDetails.aspx" title="阅读信息" description="阅读信息"></siteMapNode>
+        <siteMapNode url="~/info/InfoMaintenance.aspx" title="信息管理维护" description="信息管理维护"></siteMapNode>
+      
+      </siteMapNode>
+
+      <siteMapNode url="~/Info/MyRcaiPai.aspx" title="日程安排" description="日程安排">
+      </siteMapNode>
+
+      <siteMapNode url="~/Info/RcanpaiDetails.aspx" title="日程安排" description="日程安排">
+      </siteMapNode>
+
+      <siteMapNode url="~/info/ReceiveMessage.aspx" title="阅读短消息" description="阅读短消息">
+      </siteMapNode>
+
+      <siteMapNode url="~/info/InsertInfo.aspx" title="添加信息" description="添加信息">
+      </siteMapNode>
+      <siteMapNode url="~/Info/EditInfo.aspx" title="修改信息" description="修改信息"></siteMapNode>
+
+    </siteMapNode>
+    <siteMapNode url="~/Info/ReceiveMail.aspx" title="收件箱" description="收件箱">
+      <siteMapNode url="~/info/ReadMail.aspx" title="阅读邮件" description="阅读邮件"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/info/SendMail.aspx" title="发件箱" description="发件箱">
+      <siteMapNode url="~/info/AlreadySendMail.aspx" title="已发邮件" description="已发邮件"></siteMapNode>
+      <siteMapNode url="~/info/againSendMail.aspx" title="转发邮件" description="转发邮件"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/info/writeMail.aspx" title="撰写邮件" description="撰写邮件">
+      <siteMapNode url="~/Info/restoreMail.aspx" title="回复邮件" description="回复邮件"></siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>
+

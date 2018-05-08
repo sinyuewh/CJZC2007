@@ -1,0 +1,51 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Common_Master_JueCe, App_Web_es148s1t" %>
+<%@ Register Src="../Controls/Juece.ascx" TagName="Juece" TagPrefix="uc4" %>
+<%@ Register Src="../Controls/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Src="../Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<html>
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table width="99%" align="center" border="0" bgcolor="#f6f6f6" height="100%">
+                <tr>
+                    <td colspan="2" width="100%" height="50">
+                        <uc1:Header ID="Header1" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="16%" height="100%" bgcolor="#DEEAEA" valign="top" style="border-right-width: 1pt;
+                        border-right-style: solid; border-right-color: #46316c">
+                        <uc4:Juece ID="Juece1" runat="server" />
+                    </td>
+                    <td valign="top">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td height="5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Visible="true">
+                                    </asp:SiteMapPath>
+                                     <hr width="99%" />
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="100%" height="30">
+                        <uc2:footer ID="Footer1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

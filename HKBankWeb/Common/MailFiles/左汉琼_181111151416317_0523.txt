@@ -1,0 +1,25 @@
+数据库调整记录：
+一、PubLICGongWenShenHe － 公文审核
+1）调整 dID的字段 为 PK，且为自增列
+2）增加列 ShenHeFangShi nvarchar(50) 【审核方式】
+3）增加列 ShenHeBiaoZhi bit  【当前审核标志】
+4）增加列 ShenHeZhuBie int   【审核组别】
+
+
+二、PUBLICGongWenZhiFa － 公文制发
+1）增加列 EOK bit  【办结标志】
+2）增加列 EOKtime datetime 【办结时间】
+
+
+三、增加表 PUBLICGongWenHuanJie －公文环节处置表
+1）iID int PK 自增列 
+2）ShenHeHuanJie int 【审核环节】
+3）ShenHeHuanJieMing nvarchar(50) 【审核环节名】
+1	1	部门审核
+2	2	综合处审核
+3	3	局领导审核
+4	0	拟稿
+5	-1	文件流转
+
+四、调整表 GENERALorgMEMBERs－用户资料表
+1）增加字段 Role nvarchar(50)  用户角色

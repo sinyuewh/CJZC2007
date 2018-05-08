@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/HKBankWeb/global.asax" hash="ffffffffd803aa78" filehash="ffffd9d870c3ffe9" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/HKBankWeb/global.asax" />
+    </filedeps>
+</preserve>

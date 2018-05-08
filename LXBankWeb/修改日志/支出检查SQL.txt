@@ -1,0 +1,32 @@
+select id,zcid, fee1,fee2,fee1-fee2 from
+(
+select zcid,sum(
+isnull(fee1,0)+isnull(fee2,0)+isnull(fee3,0)+isnull(fee4,0)+isnull(fee5,0)+
+isnull(fee6,0)+isnull(fee7,0)+isnull(fee8,0)+isnull(fee9,0)+isnull(fee10,0)+ 
+isnull(fee11,0)+isnull(fee12,0)+isnull(fee13,0)+isnull(fee14,0)+isnull(fee15,0)+
+isnull(fee16,0)+isnull(fee17,0)+isnull(fee18,0)+isnull(fee19,0)+isnull(fee20,0)
+) as fee1
+
+from cw_pay group by zcid 
+) a full outer join
+(
+select id,sum(
+isnull(fee1,0)+isnull(fee2,0)+isnull(fee3,0)+isnull(fee4,0)+isnull(fee5,0)+
+isnull(fee6,0)+isnull(fee7,0)+isnull(fee8,0)+isnull(fee9,0)+isnull(fee10,0)+ 
+isnull(fee11,0)+isnull(fee12,0)+isnull(fee13,0)+isnull(fee14,0)+isnull(fee15,0)+
+isnull(fee16,0)+isnull(fee17,0)+isnull(fee18,0)+isnull(fee19,0)+isnull(fee20,0)
+) as fee2
+
+1£©1160ÓÐ´íÎó¡£
+
+select id,zcid,pbjx1,pbjx2,pbjx1-pbjx2
+from 
+(
+select id,sum(isnull(pbj,0)+isnull(plx,0)) as pbjx1 from u_zc3 group by id having
+sum(isnull(pbj,0)+isnull(plx,0))>0
+) a full outer join
+(
+select  zcid,sum(isnull(pbj,0)+isnull(plx,0)) as pbjx2 from cw_shoukuan group by zcid
+) b on a.id=b.zcid
+
+2£©1158£¬1160£¬1208ÓÐ´íÎó

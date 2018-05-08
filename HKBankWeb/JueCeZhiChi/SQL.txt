@@ -1,0 +1,8 @@
+select distinct zeren,zcid,kind from U_ZCTC 
+where status is null or status <>'×÷·Ï'
+ and time0>=@time1
+ and time0<=@time2
+order by zeren,zcid,kind
+
+
+select distinct zeren,depart,zcid,kind from U_ZCTC inner join U_UserName on U_zctc.zeren=u_username.sname

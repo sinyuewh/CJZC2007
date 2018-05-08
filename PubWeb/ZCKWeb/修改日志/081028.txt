@@ -1,0 +1,90 @@
+/*
+        //数据升级说明：
+        //1）创建表 U_FASP
+        String sql1 = "SELECT * FROM sysobjects WHERE type = 'U' AND name = 'U_FASP'";
+        DataSet ds1=comm1.SearchData(sql1);
+        if (ds1.Tables[0].Rows.Count > 0)
+        {
+            comm1.ExecuteNoQuery("DROP  Table U_FASP");
+        }
+
+        #region 创建表的SQL
+        String sql2 = @"CREATE TABLE U_FASP
+                     (
+                        id int identity(1,1) primary key not null,	    --数据ID
+                        zcid int,	                                    --资产ID
+
+                        /* 基本情况 */
+                        xmsbh		nvarchar(20),						--项目申报号
+                        num2		nvarchar(20),						--档案号
+                        xmmc		nvarchar(100),						--项目名称
+                        danwei		nvarchar(50),						--债务单位
+                        bzrmc		nvarchar(50),						--担保单位	
+                        zwzg		nvarchar(50),						--债务人主管部门区域
+                        zqsx		nvarchar(20),						--债权时效
+                        zclx		nvarchar(20),						--资产类型
+                        zcse		nvarchar(20),						--数额
+                        jiazhi		nvarchar(50),						--价值
+                        zqce		numeric(18,2),						--债权总额
+                        benjin		numeric(18,2),						--本金
+                        lixi		numeric(18,2),						--利息
+                        xmbj		nvarchar(1000),						--项目背景
+
+                        /* 项目处置方案 */
+                        czfs1		nvarchar(50),						--处置方式1
+                        jtfa1		nvarchar(200),						--具体办法1
+                        czjg1		nvarchar(50),						--处置价格1
+                        qcl1		nvarchar(50),						--清偿率1
+                        czfs2		nvarchar(50),						--处置价格2
+                        jtfa2		nvarchar(200),						--具体办法2
+                        czjg2		nvarchar(50),						--处置价格2
+                        qcl2		nvarchar(50),						--清偿率1
+                        xgsx		nvarchar(500),						--相关事项说明
+                        depart		nvarchar(50),						--承办部门
+                        zeren		nvarchar(50),						--经办人
+                        shijian1	datetime,						    --立项时间
+                        bmren		varchar(50),						--部门负责人
+                        bmyj		varchar(200),						--部门负责人意见
+                        bmsj		datetime,						    --部门负责人签字时间
+                        psren		varchar(50),						--评审员
+                        psyj		varchar(500),						--评审员意见
+                        pssj		datetime,                           --评审员时间
+						
+                        /* 审核委员会意见 */
+                        hysj1		varchar(50),							--会议时间					
+                        hydd1		varchar(50),						--会议地点
+                        yingdao1	varchar(50),							    --应到人数
+                        shidao1		varchar(50),							    --实到人数
+                        quexi1		varchar(50),							    --缺席人数 
+                        zcr1		varchar(50),					    --主持人
+                        ztwy1		nvarchar(50),						--赞同委员
+                        fdwy1		nvarchar(50),						--反对委员
+                        shyj1		nvarchar(200),						--审核意见
+                        shsj1		datetime,						    --审核时间
+                        shren1		nvarchar(50),	                    --审核人
+					    
+                        /* 决策委员会意见 */
+                        hysj2		varchar(50),				            --会议时间		
+                        hydd2		varchar(50),						--会议地点
+                        yingdao2	varchar(50),							    --应到人数
+                        shidao2		varchar(50),							    --实到人数
+                        quexi2		varchar(50),                                --缺席人数
+					    zcr2		varchar(50),						--主持人
+                        ztwy2		nvarchar(50),						--赞同委员
+                        fdwy2		nvarchar(50),						--反对委员
+                        shyj2		nvarchar(200),						--审核意见
+                        shsj2		datetime,						    --审核时间
+                        shren2		nvarchar(50),		                --审核人
+				
+                        /* 其他字段（保留字段） */
+                        fsxzly		nvarchar(500),		                --方式选择理由				
+                        djyj		nvarchar(500),						--定价意见
+                        status		nvarchar(50),						--审批表状态
+                        time0		datetime,						    --时间（保留）
+                        spkind		nvarchar(2),                        --审批表类型（0－资产，1－包）
+                        bstatus     nvarchar(1) default('0'),           --表示审批的阶段（0－申请中，1－审核委员会批准 2－决策委员会批准）
+                     )";
+
+        #endregion
+        comm1.ExecuteNoQuery(sql2);
+        */

@@ -1,0 +1,184 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Common_Master_Info, App_Web_op4ptplm" %>
+<%@ Register Src="../Controls/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Src="../Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<html>
+<head id="Head1" runat="server" height="100%">
+    <title>咨询平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+    <script language="javascript" type="text/jscript" src="" >
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table width="99%" align="center" border="0" bgcolor="#f6f6f6" height="100%">
+                <tr>
+                    <td colspan="2" width="100%" height="50">
+                        <uc1:Header ID="Header1" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="21%" height="100%" bgcolor="#DEEAEA" valign="top" style="border-right-width: 1pt;
+                        border-right-style: solid; border-right-color: #46316c">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="10">
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="bottom">
+            <span style="font-size: 12pt; font-weight: bold; letter-spacing: 2pt">咨询平台</span>
+        </td>
+    </tr>
+    <tr>
+        <td height="5" valign="bottom">
+            <table align="center" width="99%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td bgcolor="gray" height="1">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="7" colspan="2">
+                    </td>
+                </tr>
+                <colgroup>
+                    <col align="center" width="17%" />
+                    <col align="left" />
+                </colgroup>
+                <tr height="26" id="ZX_menu2" runat="server">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/InfoBrowse.aspx">信息浏览查询</a></td>
+                </tr>
+                
+                <tr height="26" id="ZX_menu0" runat="server">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/InsertInfo.aspx">发布新信息</a></td>
+                </tr>
+                
+                
+                <tr height="26" id="ZX_menu1" runat="server">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/InfoMaintenance.aspx">信息维护管理</a></td>
+                </tr>
+                
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/WriteMail.aspx">撰写新邮件</a></td>
+                </tr>
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/ReceiveMail.aspx">我的收件箱</a></td>
+                </tr>
+                
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/SendMail.aspx">我的发件箱</a></td>
+                </tr>
+                
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/ReceiveMessage.aspx">我的短消息</a></td>
+                </tr>
+                
+                 <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/MyRcaiPai.aspx">我的日程安排</a></td>
+                </tr>
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/UserLogo.aspx">浏览用户日志</a></td>
+                </tr>
+                
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/wyl.htm" target="_blank">中华万年历</a></td>
+                </tr>
+                
+                
+                <tr height="26">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/CalRate.htm" target="_blank">所得税计算器</a></td>
+                </tr>
+                
+                
+                <tr height="26" visible="false" runat="server"  id="WorLog1">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/SendMail.aspx">我的工作日记</a></td>
+                </tr>
+                
+                <tr height="26" visible="false" runat="server"  id="WorLog2">
+                    <td>
+                        <img src="<%#Application["root"]%>/Common/image/Corp/Arrow.GIF" width="14" height="17"></td>
+                    <td>
+                        <a href="<%#Application["root"]%>/Info/SendMail.aspx">查阅他人工作日记</a></td>
+                </tr>
+                
+                
+            </table>
+        </td>
+    </tr>
+</table>
+                    </td>
+                    <td valign="top">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td height="5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                                    </asp:SiteMapPath>
+                                    <hr width="99%" />
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="100%" height="30">
+                        <uc2:footer ID="Footer1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

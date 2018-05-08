@@ -1,0 +1,52 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Common_Master_Zcsp, App_Web_es148s1t" %>
+<%@ Register Src="../Controls/ZcSP.ascx" TagName="ZcSP" TagPrefix="uc4" %>
+<%@ Register Src="../Controls/footer.ascx" TagName="footer1" TagPrefix="uc2" %>
+<%@ Register Src="../Controls/Header.ascx" TagName="Header1" TagPrefix="uc1" %>
+<html>
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table width="99%" align="center" border="0" bgcolor="#f6f6f6" height="100%">
+                <tr>
+                    <td colspan="2" width="100%" height="50">
+                        <uc1:Header1 ID="Header1" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="20%" height="100%" bgcolor="#DEEAEA" valign="top" style="border-right-width: 1pt;
+                        border-right-style: solid; border-right-color: #46316c" runat="server" id="Nav">
+                        <uc4:ZcSP ID="ZcSP1" runat="server" />
+                    </td>
+                    <td valign="top" runat="server" style="width:80%">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td height="5">
+                                    <asp:Button ID="Button1" runat="server" Text="-" onclick="Button1_Click" ToolTip="隐藏导航栏"  Height="20"/>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top">
+                                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                                    </asp:SiteMapPath>
+                                    <hr width="99%" />
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="100%" height="30">
+                        <uc2:footer1 ID="Footer1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

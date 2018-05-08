@@ -1,0 +1,40 @@
+﻿if Not EXISTS (select *  from syscolumns where name='zeren2' and id=(select id from sysobjects where name='U_ZC'))
+begin
+     alter table u_zc add zeren2 varchar(50)
+end;
+
+if Not EXISTS (select *  from syscolumns where name='bzeren2' and id=(select id from sysobjects where name='u_zcbao'))
+begin
+     alter table u_zcbao add bzeren2 varchar(50)
+end;
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[ZCView ]') and OBJECTPROPERTY(id, N'IsView') = 1)
+    drop view zcview;
+
+create view ZCView  as 
+  SELECT dbo.U_ZCStatus.statusText, dbo.U_UserName.depart AS U_depart, dbo.U_ZC3.pbj, 
+      dbo.U_ZC3.plx, dbo.U_ZC3.fee1, dbo.U_ZC3.fee2, dbo.U_ZC3.fee3, dbo.U_ZC3.fee4, 
+      dbo.U_ZC3.fee5, dbo.U_ZC3.fee6, dbo.U_ZC3.fee7, dbo.U_ZC3.fee9, dbo.U_ZC3.fee8, 
+      dbo.U_ZC3.fee10, dbo.U_ZC3.fee11, dbo.U_ZC3.fee12, dbo.U_ZC3.fee13, 
+      dbo.U_ZC3.fee14, dbo.U_ZC3.fee15, dbo.U_ZC3.fee16, dbo.U_ZC3.fee17, 
+      dbo.U_ZC3.fee18, dbo.U_ZC3.fee19, dbo.U_ZC3.fee20, dbo.U_ZC.*, 
+      ISNULL(dbo.U_ZC.lx1, 0) + ISNULL(dbo.U_ZC.lx2, 0) + ISNULL(dbo.U_ZC.lx3, 0) 
+      AS bxhj, ISNULL(dbo.U_ZC.lx1, 0) + ISNULL(dbo.U_ZC.lx2, 0) + ISNULL(dbo.U_ZC.lx3, 
+      0) + ISNULL(dbo.U_ZC.bj, 0) AS hjbx
+FROM dbo.U_ZC LEFT OUTER JOIN
+      dbo.U_ZC3 ON dbo.U_ZC.ID = dbo.U_ZC3.ID LEFT OUTER JOIN
+      dbo.U_UserName ON dbo.U_ZC.zeren = dbo.U_UserName.sname LEFT OUTER JOIN
+      dbo.U_ZCStatus ON dbo.U_ZC.status = dbo.U_ZCStatus.statusValue;
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[ZcBaoView3]') and OBJECTPROPERTY(id, N'IsView') = 1)
+   drop view  ZcBaoView3;  
+   
+create view ZcBaoView3   as     
+     SELECT dbo.U_ZCBAO.ID, dbo.U_ZCBAO.Bname, dbo.U_ZCBAO.Bjsf, 
+      dbo.U_ZCBAO.bzeren1 AS zeren1, dbo.U_ZCBAO.Bzeren AS zeren, 
+      dbo.ZcBaoView2.bj, dbo.ZcBaoView2.lx, dbo.U_UserName.depart, 
+      dbo.ZcBaoView2.hs, dbo.U_ZCBAO.bzeren2 AS zeren2
+FROM dbo.U_ZCBAO INNER JOIN
+      dbo.ZcBaoView2 ON dbo.U_ZCBAO.ID = dbo.ZcBaoView2.BID LEFT OUTER JOIN
+      dbo.U_UserName ON dbo.U_ZCBAO.Bzeren = dbo.U_UserName.sname;
+

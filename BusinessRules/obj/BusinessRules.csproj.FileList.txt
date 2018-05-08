@@ -1,0 +1,8 @@
+bin\Debug\BusinessRules.dll
+bin\Debug\BusinessRules.pdb
+bin\Debug\FreeTextBox.dll
+bin\Debug\SysFrame.dll
+bin\Debug\SysFrame.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BusinessRules.dll
+obj\Debug\BusinessRules.pdb

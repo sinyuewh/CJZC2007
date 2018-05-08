@@ -1,0 +1,13 @@
+use cjzc2007
+
+/*----删除资产包中重复的资产---------------------*/
+delete from u_zcbaoinfo where id in(
+select min(id) from u_zcbaoinfo group by bid,zcid having count(*)>=2)
+
+delete from u_zcbaoinfo where id in (
+select min(id) from u_zcbaoinfo group by zcid having count(*)>=2)
+
+
+/* 更新责任人想矛盾的数据  */
+update u_zc2 set zeren=u_zc.zeren from u_zc2
+inner join u_zc on u_zc2.zcid=u_zc.id and u_zc2.zeren <>u_zc.zeren

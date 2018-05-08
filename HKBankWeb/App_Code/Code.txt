@@ -1,0 +1,3 @@
+﻿
+//设置方案执行结果
+PubComm.SetProfile("方案执行结果", this.spresult, "请选择...", "");

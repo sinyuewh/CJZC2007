@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ZcZongHe.master.cs" Inherits="Common_Master_ZcZongHe" %>
+
+<%@ Register Src="../Controls/ZcHead.ascx" TagName="ZcHead" TagPrefix="uc1" %>
+<%@ Register Src="../Controls/ZcFooter.ascx" TagName="ZcFooter" TagPrefix="uc2" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="99%" align="center" border="0" bgcolor="#f6f6f6" height="100%">
+            <tr>
+                <td colspan="2" width="100%" height="50">
+                    <uc1:ZcHead ID="ZcHead1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" style="width: 85%" height="100%">
+                    <table width="100%" border="0">
+                        <tr>
+                            <td>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" width="100%" height="30">
+                    <uc2:ZcFooter ID="ZcFooter1" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

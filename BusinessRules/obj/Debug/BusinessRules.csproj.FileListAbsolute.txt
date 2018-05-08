@@ -1,0 +1,61 @@
+E:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+E:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+E:\MyProject\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+E:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+E:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+E:\MyProject\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+E:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+X:\MyProject\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+X:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+X:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+E:\快盘\MyProject\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+E:\快盘\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+E:\快盘\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+D:\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+D:\MyProject\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+D:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+D:\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+D:\MyProject\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+D:\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+E:\快盘\MyProject\CJZC2007\BusinessRules\bin\Debug\WebFrame.dll
+X:\MyProject\CJZC2007\BusinessRules\bin\Debug\WebFrame.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\WebFrame.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+E:\快盘1\MyProject\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+E:\快盘1\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+E:\快盘1\MyProject\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\WebFrame.dll
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Documents and Settings\Administrator\桌面\工作\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb
+E:\CJZC2007\BusinessRules\bin\Debug\BusinessRules.dll
+E:\CJZC2007\BusinessRules\bin\Debug\BusinessRules.pdb
+E:\CJZC2007\BusinessRules\bin\Debug\FreeTextBox.dll
+E:\CJZC2007\BusinessRules\bin\Debug\SysFrame.dll
+E:\CJZC2007\BusinessRules\bin\Debug\WebFrame.dll
+E:\CJZC2007\BusinessRules\bin\Debug\SysFrame.pdb
+E:\CJZC2007\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+E:\CJZC2007\BusinessRules\obj\Debug\BusinessRules.dll
+E:\CJZC2007\BusinessRules\obj\Debug\BusinessRules.pdb

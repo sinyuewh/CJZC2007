@@ -1,0 +1,1 @@
+在表：DA_AJDZFileSeeLog 中增加 remark nvarchar(50) 字段。

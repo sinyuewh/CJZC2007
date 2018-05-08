@@ -1,0 +1,2 @@
+﻿ <script language="javascript" src='<%=Application["root"]%>/Common/Script/win1.js' type="text/javascript">
+ </script>
